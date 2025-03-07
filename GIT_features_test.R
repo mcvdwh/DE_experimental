@@ -22,8 +22,3 @@
 
 # mv path-to-file path-to-destination-directory
 # rm filename-1 filename-2 filename-3
-
-library(tinytex)
-library(rmarkdown)
-
-rmarkdown::render("test.Rmd", output_format = "pdf_document")
