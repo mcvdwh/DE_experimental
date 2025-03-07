@@ -19,3 +19,11 @@
 # cd ../.. # change to two parent layer beyond
 # cd -  # whatever dir you were before
 # cd  # return to the home dir
+
+# mv path-to-file path-to-destination-directory
+# rm filename-1 filename-2 filename-3
+
+library(tinytex)
+library(rmarkdown)
+
+rmarkdown::render("test.Rmd", output_format = "pdf_document")
