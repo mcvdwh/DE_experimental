@@ -22,3 +22,5 @@
 
 # mv path-to-file path-to-destination-directory
 # rm filename-1 filename-2 filename-3
+
+# this is another test line to verify that R and GIT are talking to one another
