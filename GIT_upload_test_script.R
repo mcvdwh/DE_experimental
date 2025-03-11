@@ -3,10 +3,12 @@
 install.packages("tidyverse")
 install.packages("dslabs")
 
-# add extra nonsense in here
+# more nonsense
 
 library(tidyverse)
 library(dslabs)
+
+# even more nonsense
 
 data("murders")
 head(murders)
@@ -16,4 +18,6 @@ murderstibble <- as.tibble(murders)
 
 murderstibble %>% # add a note in line
    mutate(region = as.character(region)) %>%
+   # now we add extra stuff here
+   group_by(region) %>% 
    summarise(pop = sum(population))
